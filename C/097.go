@@ -8,10 +8,6 @@ import (
 	"strings"
 )
 
-var (
-	N int
-)
-
 func main() {
 	sc := bufio.NewScanner(os.Stdin)
 	sc.Scan()
